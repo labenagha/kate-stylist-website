@@ -225,43 +225,28 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    .header__section {
-        padding: 2rem;
-    }
-
-    .logo {
-        margin-left: 30%;
-    }
-
-    .navbar__list {
-        flex-direction: column;
-    }
-
+@media (max-width: 991px) {
     .navbar__item:not(:last-child) {
-       display: none;
-    }
-
-    .overlay__text__title {
-        font-size: 6rem;
-        padding-left: 15rem;
-    }
-
-    .overlay__text__paragraph {
         display: none;
     }
 
-    .hero__video {
-        height: 100vh;
+     .navbar__list__menu__icon {
+        height: 6.5rem;
+    }
+
+     .overlay__text__title {
+        padding-left: 20rem;
+    }
+
+     .overlay__text__paragraph {
+        padding-left: 20rem;
     }
 
     .video-control-btn {
-        top: 10%;
-        left: 10%;
+        display: none;
     }
-
+    
     .overlay__text__cta {
-        transform: translate(-50%, -50%);
         left: 50%;
     }
 }

@@ -231,15 +231,11 @@ body {
     }
 
      .navbar__list__menu__icon {
-        height: 6.5rem;
+        height: 8rem;
     }
 
      .overlay__text__title {
-        padding-left: 20rem;
-    }
-
-     .overlay__text__paragraph {
-        padding-left: 20rem;
+        font-size: 4rem;
     }
 
     .video-control-btn {

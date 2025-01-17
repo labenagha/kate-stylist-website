@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <link
+        rel="stylesheet"
+        href="./css/main.css"
+    ></link>
+
+    <title>
+        Kate Stylez | Fashion Best Gallery
+    </title>
+</head>
+
+<body>
+    <header class="header__section">
+        <img
+            class="logo"
+            src="./assets/icons/logo-placeholder_processed.png"
+            alt="Kate Stylez Logo"
+        >
+
+        <nav class="navbar__section">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <!-- <a
+                        href="#"
+                        class="navbar__link"
+                    >Home</a> -->
+                </li>
+
+                <li class="navbar__item">
+                    <a
+                        href="#"
+                        class="navbar__link"
+                    >Services</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a
+                        href="#"
+                        class="navbar__link"
+                    >Gallery</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a
+                        href="#"
+                        class="navbar__link"
+                    >About</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a
+                        href="#"
+                        class="navbar__link"
+                    >Contact</a>
+                </li>
+
+                <li class="navbar__item">
+                    <img
+                        class="navbar__list__menu__icon"
+                        src="./assets/icons/list.svg"
+                        alt=""
+                    >
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="side__bar__menu__toggle__section">
+        <div
+            class="side__bar__menu__toggle"
+            id="sideMenu"
+        >
+            <img
+                class="close__btn__icon"
+                id="closeBtn"
+                src="./assets/icons/x.svg"
+                alt=""
+            >
+
+            <ul class="close__btn__list">
+                <li>
+                    <a
+                        class="close__btn__item"
+                        href="#"
+                    >Home</a>
+                </li>
+
+                <li>
+                    <a
+                        class="close__btn__item"
+                        href="#"
+                    >Services</a>
+                </li>
+
+                <li>
+                    <a
+                        class="close__btn__item"
+                        href="#"
+                    >Gallery</a>
+                </li>
+
+                <li>
+                    <a
+                        class="close__btn__item"
+                        href="#"
+                    >About</a>
+                </li>
+
+                <li>
+                    <a
+                        class="close__btn__item"
+                        href="#"
+                    >Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="hero__video__section">
+        <div class="overlay__text__description">
+            <h1 class="overlay__text__title">
+                Your Hair
+
+                <br>
+                Our Masterpiece
+
+                <span class="underline__sub__span__text">
+                    <br>
+                    Of
+                </span>
+
+                <span class="underline">Art</span>
+            </h1>
+
+            <p class="overlay__text__paragraph">
+                Redefining Elegance One Strand at a Time
+            </p>
+        </div>
+
+        <div class="side__container__cta">
+            <a
+                href="#"
+                class="overlay__text__cta"
+            >Book Now</a>
+        </div>
+
+        <video
+            id="video1"
+            class="hero__video"
+            src="./assets/videos/4820806-hd_1080_1920_25fps.mp4"
+            autoplay="autoplay"
+            muted="muted"
+        ></video>
+
+        <video
+            id="video2"
+            class="hero__video"
+            src="./assets/videos/7148292-hd_1920_1080_24fps.mp4"
+            muted="muted"
+            style="display: none;"
+        >
+            <!-- Initially hidden -->
+        </video>
+
+        <button
+            id="playPauseBtn"
+            class="video-control-btn"
+        >
+            <img
+                id="playPauseIcon"
+                src="./assets/icons/bx-pause-circle.svg"
+                alt="Pause"
+            >
+        </button>
+
+        <!-- <div class="overlay__background"></div> -->
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

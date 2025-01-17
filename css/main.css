@@ -87,7 +87,7 @@ body {
     background-color: #000000;
     z-index: 500;
     padding: 6rem;
-    transition: transform 0.3s ease;
+    transition: 0.5s ease;
 }
 
 .side__bar__menu__toggle.open {
@@ -225,6 +225,16 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 390px) {
+    .overlay__text__title {
+        margin-left: 15rem;
+    }
+
+    .overlay__text__paragraph {
+        display: none;
+    }
+}
+
 @media (max-width: 991px) {
     .navbar__item:not(:last-child) {
         display: none;
@@ -243,6 +253,7 @@ body {
     }
     
     .overlay__text__cta {
+        top: 85%;
         left: 50%;
     }
 }

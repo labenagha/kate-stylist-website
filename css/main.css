@@ -231,16 +231,20 @@ body {
     }
 
     .logo {
-        width: 15rem;
-        height: auto;
+        height: 25rem;
+        width: 25rem;
     }
 
     .navbar__list {
         flex-direction: column;
     }
 
+    .navbar__item:not(:last-child) {
+       display: none;
+    }
+
     .overlay__text__title {
-        font-size: 4rem;
+        font-size: 6rem;
         padding-left: 15rem;
     }
 
@@ -252,16 +256,23 @@ body {
         height: 100vh;
     }
 
+    .hero__video__section  {
+        height: 60vh;
+    }
+
+    .hero__video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .video-control-btn {
-        top: 3%;
+        top: 10%;
         left: 10%;
-        padding: 1rem;
     }
 
     .overlay__text__cta {
         transform: translate(-50%, -50%);
         left: 50%;
-        padding: 5rem;
-        font-size: 2.5rem;
     }
 }
